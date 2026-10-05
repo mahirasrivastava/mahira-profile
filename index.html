@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahira Srivastava</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-brand">MS<span class="dot">.</span></div>
+  <input type="checkbox" id="navCheck" class="nav-check">
+  <label for="navCheck" class="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </label>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-blob pink"></div>
+  <div class="hero-blob cyan"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Mahira Srivastava</h1>
+      <p class="tagline">Glad you're here — take a look around and get to know me a little.</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">About Me</a>
+        <div class="dodge">
+          <input type="checkbox" id="dodge1" class="dodge-check">
+          <input type="checkbox" id="dodge2" class="dodge-check">
+          <input type="checkbox" id="dodge3" class="dodge-check">
+          <label for="dodge1" class="btn btn-outline dodge-btn d-start">Get in Touch</label>
+          <label for="dodge2" class="btn btn-outline dodge-btn d-one">Nope 😄</label>
+          <label for="dodge3" class="btn btn-outline dodge-btn d-two">Too slow!</label>
+          <a href="#contact" class="btn btn-outline dodge-btn d-end">Okay fine, click me</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="profile.jpg" alt="Mahira Srivastava" class="profile-photo">
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <span></span>
+  </div>
+</header>
+
+<main>
+
+  <section id="about" class="section">
+    <p class="section-tag">01 · About</p>
+    <h2>A bit about me</h2>
+    <div class="card about-card">
+      <p>I'm Mahira — a third-year IT student at Manipal Institute of Technology and a host on our campus radio station. I build full-stack apps with React and Node.js, often with AI in the mix, and I'm drawn to projects with real-world impact like healthcare, forensics and heritage tech.</p>
+    </div>
+  </section>
+
+  <section id="education" class="section alt-bg">
+    <p class="section-tag">02 · Education</p>
+    <h2>Where I've studied</h2>
+    <div class="timeline">
+      <div class="card timeline-card">
+        <span class="badge">2024 – 2028</span>
+        <h3>B.Tech, Information Technology</h3>
+        <p class="muted">Manipal Institute of Technology, Manipal</p>
+      </div>
+      <div class="card timeline-card">
+        <span class="badge">2022 – 2024</span>
+        <h3>Class XII (PCM)</h3>
+        <p class="muted">Delhi Public School, CBSE</p>
+      </div>
+      <div class="card timeline-card">
+        <span class="badge">Class X</span>
+        <h3>Delhi Public School</h3>
+        <p class="muted">CBSE</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <p class="section-tag">03 · Experience</p>
+    <h2>Roles &amp; responsibilities</h2>
+    <div class="exp-list">
+      <div class="card exp-card">
+        <div class="exp-head">
+          <h3>General Secretary</h3>
+          <span class="badge">Campus Radio, MIT</span>
+        </div>
+        <p>Help run the campus radio station — planning shows, coordinating the team and hosting on-air segments.</p>
+      </div>
+      <div class="card exp-card">
+        <div class="exp-head">
+          <h3>Leadership Team</h3>
+          <span class="badge">TechTatva, MIT</span>
+        </div>
+        <p>Part of the team behind MIT's annual technical fest, working on event planning and coordination.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt-bg">
+    <p class="section-tag">04 · Projects</p>
+    <h2>Things I've built</h2>
+    <div class="projects-grid">
+      <div class="card project-card">
+        <p class="project-type">Hackathon · IBM SkillsBuild</p>
+        <h3>MediMind Sakhi</h3>
+        <p>Health triage and education app for rural women and girls in India. A three-agent pipeline (intake → triage → routing) backed by WHO danger-sign rules, RAG over WHO/NHM documents, voice support in English, Hindi and Kannada, and an ASHA worker dashboard with camera-based anaemia screening.</p>
+        <div class="tags small"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">RAG</span><span class="tag">Computer Vision</span></div>
+      </div>
+      <div class="card project-card">
+        <p class="project-type">Portfolio project</p>
+        <h3>SkillPath AI</h3>
+        <p>Generates personalised learning roadmaps with Llama 3.3. Includes an interactive roadmap checklist, AI mentor chatbot, quiz generator, notes, daily challenges with streaks and achievement badges.</p>
+        <div class="tags small"><span class="tag">MongoDB</span><span class="tag">Express</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Netlify</span></div>
+      </div>
+      <div class="card project-card">
+        <p class="project-type">Hackathon · Smart India Hackathon 2026</p>
+        <h3>HeritageVerse</h3>
+        <p>An AR and voice-led multilingual heritage experience, demoed at Hampi, built with team "404 Not Found".</p>
+        <div class="tags small"><span class="tag">AR</span><span class="tag">Voice</span><span class="tag">Multilingual</span></div>
+      </div>
+      <div class="card project-card">
+        <p class="project-type">Information Security Lab</p>
+        <h3>USB Forensics &amp; Incident Logger</h3>
+        <p>Windows tool that detects USB activity, collects and correlates forensic artifacts, verifies SHA-256 evidence hashes, scores incident risk and generates an explainable forensic report.</p>
+        <div class="tags small"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">SQLite</span></div>
+      </div>
+      <div class="card project-card">
+        <p class="project-type">Academic project</p>
+        <h3>DFEMS</h3>
+        <p>Digital Forensic Evidence Management System covering case management, chain of custody, forensic analysis and audit logging, on a 20+ table database schema.</p>
+        <div class="tags small"><span class="tag">Java</span><span class="tag">JavaFX</span><span class="tag">Oracle</span></div>
+      </div>
+      <div class="card project-card">
+        <p class="project-type">Capstone · SDG 13</p>
+        <h3>EcoTrack</h3>
+        <p>A carbon footprint calculator with AI-powered suggestions, built for the Lenovo / BharatCares capstone on climate action.</p>
+        <div class="tags small"><span class="tag">JavaScript</span><span class="tag">Claude API</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <p class="section-tag">05 · Skills</p>
+    <h2>What I work with</h2>
+    <div class="skills-wrap">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="tags">
+          <span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">C++</span><span class="tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Web Dev</h4>
+        <div class="tags">
+          <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>AI / ML</h4>
+        <div class="tags">
+          <span class="tag">Claude API</span><span class="tag">Prompt Engineering</span><span class="tag">TensorFlow</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Tools</h4>
+        <div class="tags">
+          <span class="tag">Git & GitHub</span><span class="tag">VS Code</span><span class="tag">Postman</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="section alt-bg">
+    <p class="section-tag">06 · Achievements</p>
+    <h2>Milestones</h2>
+    <div class="achieve-list">
+      <div class="achieve-item">
+        <span class="achieve-icon">💡</span>
+        <div>
+          <h3>Hackathons</h3>
+          <p class="muted">Building for IBM SkillsBuild (MediMind Sakhi) and Smart India Hackathon 2026 (HeritageVerse).</p>
+        </div>
+      </div>
+      <div class="achieve-item">
+        <span class="achieve-icon">🎙️</span>
+        <div>
+          <h3>General Secretary, Campus Radio</h3>
+          <p class="muted">Elected to lead the campus radio station at MIT Manipal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests" class="section">
+    <p class="section-tag">07 · Interests</p>
+    <h2>A few things I like</h2>
+    <div class="interests-grid">
+      <div class="card interest-card">
+        <div class="interest-icon">📻</div>
+        <h3>Music & Radio</h3>
+        <p>General Secretary at our campus radio station — always on-air.</p>
+      </div>
+      <div class="card interest-card">
+        <div class="interest-icon">🏅</div>
+        <h3>Sports</h3>
+        <p>Enjoy staying active whenever I can.</p>
+      </div>
+      <div class="card interest-card">
+        <div class="interest-icon">🛠️</div>
+        <h3>Building things</h3>
+        <p>Side projects and messing around with AI APIs.</p>
+      </div>
+      <div class="card interest-card">
+        <div class="interest-icon">✈️</div>
+        <h3>Travelling</h3>
+        <p>Always up for exploring somewhere new.</p>
+      </div>
+      <div class="card interest-card">
+        <div class="interest-icon">🛡️</div>
+        <h3>Defence tech</h3>
+        <p>Curious about where technology meets national security.</p>
+      </div>
+      <div class="card interest-card">
+        <div class="interest-icon">🔍</div>
+        <h3>Digital forensics</h3>
+        <p>Piecing together what happened from the traces systems leave.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt-bg">
+    <p class="section-tag">08 · Contact</p>
+    <h2>Let's connect</h2>
+    <div class="contact-buttons">
+      <a href="mailto:mahirasrivastava@gmail.com" class="btn btn-primary">Email</a>
+      <a href="https://linkedin.com/in/mahirasrivastava" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+      <a href="https://github.com/mahirasrivastava" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Mahira Srivastava</p>
+</footer>
+
+
+</body>
+</html>
+
